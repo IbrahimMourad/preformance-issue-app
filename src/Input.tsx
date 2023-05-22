@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { getLayoutWidth } from "./App";
+import { getLayoutWidth } from "./Wrapper";
 
 const Input = (props: { width: number }) => {
   const [value, setValue] = useState("");

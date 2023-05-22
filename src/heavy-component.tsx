@@ -8,6 +8,6 @@ const wait = (ms: number) => {
 
 export const VeryHeavyComponentNoProps = () => {
   wait(1000);
-
+  console.log("heavy");
   return <></>;
 };
